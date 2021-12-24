@@ -1,0 +1,28 @@
+{
+  "name": "archref-api-testing-cypress",
+  "version": "1.0.0",
+  "description": "Arquitetura de referencia para implementação de testes de api com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmatosqa/archref-api-testing-cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "testing"
+  ],
+  "author": "Rafael Matos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelmatosqa/archref-api-testing-cypress/issues"
+  },
+  "homepage": "https://github.com/rafaelmatosqa/archref-api-testing-cypress#readme",
+  "dependencies": {
+    "ajv": "^8.8.2",
+    "cypress": "^7.0.0"
+  }
+}

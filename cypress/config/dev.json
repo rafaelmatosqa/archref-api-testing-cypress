@@ -1,0 +1,6 @@
+{
+    "env": {
+      "api-regres": "https://reqres.in",
+      "api-pet": "https://petstore3.swagger.io"
+    }
+  }
