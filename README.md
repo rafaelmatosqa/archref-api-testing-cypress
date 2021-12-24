@@ -1,5 +1,6 @@
 # archref-api-testing-cypress
-#Em construção ![alt text](cypress/support/icon_.jpeg)
+
+#Em construção...
 
 # Template Automação de testes de api com Cypress
 
