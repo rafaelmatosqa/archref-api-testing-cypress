@@ -8,7 +8,7 @@ Autor: [Rafael Matos](rafaelmatosqa@gmail.com)
 ## Requisitos
 
 
-## 1. Estrutura
+## Estrutura
 
 ####  Massas de dados
 
@@ -21,7 +21,7 @@ Autor: [Rafael Matos](rafaelmatosqa@gmail.com)
 ####  Reports
 
 
-## 3 Execução
+## Execução
 
 
 #### Executando em modo gráfico
