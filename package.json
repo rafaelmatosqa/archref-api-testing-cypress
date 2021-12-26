@@ -4,7 +4,7 @@
   "description": "Arquitetura de referencia para implementação de testes de api com cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --env fileConfig=dev"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   "homepage": "https://github.com/rafaelmatosqa/archref-api-testing-cypress#readme",
   "dependencies": {
     "ajv": "^8.8.2",
-    "cypress": "^7.0.0"
+    "cypress": "^7.0.0",
+    "cypress-select-tests": "^1.7.1",
+    "faker": "^5.5.3"
   }
 }
