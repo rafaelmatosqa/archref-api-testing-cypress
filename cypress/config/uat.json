@@ -1,6 +1,6 @@
 {
   "env": {
     "api-regres": "https://reqres.in",
-    "api-pet": "https://petstore.swagger.io"
+    "api-book": "https://fakerestapi.azurewebsites.net"
   }
 }

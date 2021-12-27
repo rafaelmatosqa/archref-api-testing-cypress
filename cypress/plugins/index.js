@@ -1,5 +1,6 @@
 /// <reference types='cypress' />
 
+
 const fs = require("fs-extra");
 const path = require("path");
 
@@ -15,6 +16,7 @@ function getConfigurationByFile(file) {
 }
 
 module.exports = (on, config) => {
+
   const file = config.env.fileConfig || "dev";
   return getConfigurationByFile(file);
 };

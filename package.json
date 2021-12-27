@@ -4,7 +4,8 @@
   "description": "Arquitetura de referencia para implementação de testes de api com cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --env fileConfig=dev"
+    "test": "cypress run --env fileConfig=dev",
+    "test-tag": "cypress-tags run -e TAGS=@contrato --env fileConfig=dev"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "ajv": "^8.8.2",
     "cypress": "^7.0.0",
     "cypress-select-tests": "^1.7.1",
+    "cypress-tags": "^0.3.0",
     "faker": "^5.5.3"
   }
 }
