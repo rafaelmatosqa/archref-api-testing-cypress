@@ -2,7 +2,7 @@ export default class Rest {
   static get(endpoint) {
     return cy.request({
       method: "GET",
-      url: `${Cypress.env("api-pet")}` + `${endpoint}`,
+      url: `${Cypress.env("api-book")}` + `${endpoint}`,
       failOnStatusCode: false,
     });
   }
@@ -10,7 +10,7 @@ export default class Rest {
   static post(endpoint, body) {
     return cy.request({
       method: "POST",
-      url: `${Cypress.env("api-pet")}` + `${endpoint}`,
+      url: `${Cypress.env("api-book")}` + `${endpoint}`,
       body: body,
       failOnStatusCode: false,
     });
@@ -19,7 +19,7 @@ export default class Rest {
   static put(endpoint, body) {
     return cy.request({
       method: "PUT",
-      url: `${Cypress.env("api-pet")}` + `${endpoint}`,
+      url: `${Cypress.env("api-book")}` + `${endpoint}`,
       body: body,
       failOnStatusCode: false,
     });
